@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="86.724" height="59.985" viewBox="0 0 86.724 59.985">
+  <g id="Group_58" data-name="Group 58" transform="translate(-1125.276 -4508)">
+    <g id="Icon_feather-credit-card" data-name="Icon feather-credit-card" transform="translate(1127.276 4519.893)">
+      <path id="Path_84" data-name="Path 84" d="M7.262,6H59.116a5.762,5.762,0,0,1,5.762,5.762V46.331a5.762,5.762,0,0,1-5.762,5.762H7.262A5.762,5.762,0,0,1,1.5,46.331V11.762A5.762,5.762,0,0,1,7.262,6Z" transform="translate(-1.5 -6)" fill="none" stroke="#164cff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_85" data-name="Path 85" d="M1.5,15H64.877" transform="translate(-1.5 2.285)" fill="none" stroke="#164cff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+    <ellipse id="Ellipse_179" data-name="Ellipse 179" cx="18.5" cy="17.5" rx="18.5" ry="17.5" transform="translate(1175 4508)" fill="#fff"/>
+    <g id="Icon_feather-search" data-name="Icon feather-search" transform="translate(1181.529 4514.201)">
+      <path id="Path_86" data-name="Path 86" d="M26.216,15.358A10.858,10.858,0,1,1,15.358,4.5,10.858,10.858,0,0,1,26.216,15.358Z" transform="translate(-4.5 -4.5)" fill="none" stroke="#164cff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_87" data-name="Path 87" d="M30.879,30.879l-5.9-5.9" transform="translate(-6.448 -6.448)" fill="none" stroke="#164cff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
