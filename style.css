@@ -28,9 +28,16 @@
   box-shadow: none;
   outline: none;
 }
-
+.line{
+  padding: 2px;
+  margin-left: 20px;
+    /* margin: 20px; */
+    background-color: #00e676;
+    width: 1px;
+    height: 55px;
+}
 #banner {
-  margin-top: 10px;
+  /* margin-top: 5px; */
   margin-bottom: 900px;
 }
 #banner img {
@@ -50,11 +57,6 @@
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
-#logos {
-  /* margin-top: 700px; */
-  /* margin-bottom: 40px; */
-}
-
 #logos img {
   width: 60px;
   margin: 30px;
@@ -69,17 +71,19 @@
 #about-us .card small {
   color: #81c784;
   font-weight: 600;
+  font-size: 15px;
 }
 
 #about-us .card .card-body p {
   line-height: 30px;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 #about-us .card .card-body h5 {
   color: #070d50;
   font-weight: 600;
+  font-size: 27px;
   /* margin-top: 90px; */
 }
 .logos {
