@@ -89,6 +89,7 @@
 .logos {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .logos img {
   transition: all 0.5s;
@@ -377,22 +378,39 @@
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
-@media (max-width: 768px) {
+@media  only screen and (max-width: 768px) {
   #logos {
     /* margin-top: -100px; */
+    margin-top: -520px;
     text-align: center;
+  }
+  .box{
+    height: 120px;
+  }
+  #about-us .card-left img{
+    height: 30%;
+    margin-top: -45px;
   }
   #about-us svg {
     width: 100%;
   }
   #about-us .card {
-    width: 15rem;
+    width: 25rem;
+  }
+
+  #covid{
+    margin-bottom: 100px;
   }
   .title {
     font-size: 16px;
     top: 0;
-    margin-top: 230px;
+    margin-top: 241px;
     line-height: 50px;
+    /* position: absolute; */
+  }
+
+  #stories .img{
+    width: 30%;
   }
   .slant {
     display: none;
@@ -421,6 +439,35 @@
       -moz-transform: skew(0deg);
       -o-transform: skew(0deg); */
   }
+  #stories .card{
+    width: 467px;
+    margin: 27px;
+  }
+  #stories .img{
+    width: 124%;
+    margin-left: -25px;
+    margin-bottom: 31px;
+}
+
+.laptop{
+  margin-top: 269px;
+}
+
+#impact{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.impact-box{
+  margin-bottom: 20px;
+} 
+
+.details{
+  margin-bottom: -65px
+}
+#services {
+  margin-bottom: 160px;
+}
+
 }
 
 .bt-card {
