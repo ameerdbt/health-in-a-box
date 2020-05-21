@@ -546,3 +546,24 @@
     max-width: 51%;
 }
 }
+
+#btnScrollToTop{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #5b66df;
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  border: none;
+}
+
+#btnScrollToTop:active{
+  background: #1a237e;
+  color: #fff;
+}
