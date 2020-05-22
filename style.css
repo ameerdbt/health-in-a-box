@@ -38,11 +38,13 @@
 #banner {
   /* margin-top: 5px; */
   margin-bottom: 752px;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 #banner img {
   width: 80%;
   float: right;
   height: 30%;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   /* margin-right: 20px; */
 }
 
@@ -59,11 +61,13 @@
 #logos img {
   width: 60px;
   margin: 30px;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
 #about-us {
   background: #e8f5e9;
   margin-bottom: 40px;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
  
   /* padding-bottom: 500px; */
 }
@@ -89,7 +93,9 @@
 .logos {
   display: flex;
   flex-direction: row;
+  margin-top: -30px;
   flex-wrap: wrap;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 .logos img {
   transition: all 0.5s;
@@ -146,6 +152,7 @@
 
 #services {
   margin-bottom: 100px;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 #services .services-title {
   font-size: 34px;
@@ -176,9 +183,11 @@
   width: 100%;
   height: 400px;
   margin-bottom: 240px;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 #impact {
   margin-bottom: 250px;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 .impact-title {
   font-size: 34px;
@@ -566,4 +575,8 @@
 #btnScrollToTop:active{
   background: #1a237e;
   color: #fff;
+}
+
+.geo{
+  margin-left: -27px;
 }
