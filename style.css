@@ -202,7 +202,7 @@ span.img-text:hover {
 }
 .c {
   transition: all 0.5s;
-  width: 26rem;
+  width: 30rem;
   height: 35rem;
   padding: 30px;
 }
@@ -219,9 +219,20 @@ span.img-text:hover {
   color: #3943af;
 }
 .c .card-body {
-  margin-top: 80px;
+  /* margin-top: 80px; */
 }
-
+.rb1{
+  margin-top: 50px;
+}
+.rb2{
+  margin-top: 50px;
+}
+.rb3{
+  margin-top: 50px;
+}
+.rb4{
+  margin-top: 50px;
+}
 .card-right {
   margin-top: 200px;
 }
@@ -539,21 +550,51 @@ span.img-text:hover {
     text-align: center;
     display: flex;
     flex-direction: row;
+    margin-left: 33px;
     flex-wrap: wrap;
+  }
+  #logos img{
+    margin-left: 206px;
   }
   .box{
     height: 120px;
   }
   #about-us .card-left img{
     height: 30%;
-    margin-top: -45px;
+    margin-top: -103px;
   }
   #about-us svg {
     width: 100%;
   }
   #about-us .card {
-    width: 25rem;
+    width:22rem;
   }
+.right-box1 {
+  width: 171px;  
+  margin-top: -21px;
+
+}
+.right-box {
+  width: 178px;
+  margin-top: 2px;
+}
+.right-box2{
+  width: 153px;
+  margin-top: -36px;
+}
+.right-box3{
+  width: 170px;
+  margin-top: -10px;
+}
+.rb2{
+  margin-top: -23px;
+}
+.rb3{
+  margin-top: -1px;
+}
+.rb4{
+  margin-top: -43px;
+}
 
   #covid{
     margin-bottom: 100px;
@@ -735,18 +776,24 @@ span.img-text:hover {
 }
 @media  only screen and (max-width: 700px) {
   .title{
-    margin-top: 146px;
+    margin-top: 219px;
+  }
+  .lap-text{
+  
   }
  
 }
 @media  only screen and (max-width: 1200px){
   .hp{
     margin-top: 182px;
+  } 
+}
+@media  only screen and (max-width: 500px){
+  .nav-img{
+    width: 50%;
   }
 
- 
 }
-
 
 .lap-text{
   /* position: absolute; */
