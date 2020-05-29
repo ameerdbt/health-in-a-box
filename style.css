@@ -149,9 +149,11 @@
 }
 .owl-carousel .prev-slide:hover {
   background-position: 0px -53px;
+  color: #2caae1;
 }
 .owl-carousel .next-slide:hover {
   background-position: -24px -53px;
+  color: #2caae1;
 }
 
 span.img-text {
@@ -178,9 +180,6 @@ span.img-text:hover {
   flex-wrap: wrap;
   text-align: center;
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-}
-.img-fluid{
-
 }
 .owl-logo{
   margin-top: 20px;
@@ -626,6 +625,9 @@ span.img-text:hover {
 #services {
   margin-bottom: 160px;
 }
+.lap-text{
+
+}
 
 }
 
@@ -737,9 +739,43 @@ span.img-text:hover {
   .title{
     margin-top: 146px;
   }
+  .lap-text{
+
+  }
 }
 @media  only screen and (max-width: 1200px){
   .hp{
     margin-top: 182px;
   }
+
+ 
+}
+
+
+.lap-text{
+  /* position: absolute; */
+  margin-top: -386px;
+  margin-left: -304px;
+}
+
+.main-text{
+  font-weight: 600;
+  font-size: 35px;
+  color: #fff;
+  margin-left: 58px;
+}
+.sub-text{
+  font-size: 24px;
+  color: #fff;
+  margin-left: 58px;
+}
+.lap-box{
+  /* position: absolute; */
+ 
+  width: 596px;
+  height: 395px;
+  opacity: 0.5;
+  /* margin-left: 333px;
+  margin-top: -432px; */
+  background-color: black;
 }
