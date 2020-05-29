@@ -160,16 +160,18 @@
                   healthcare institutions across the country.
                 </p>
                 <p>
-                  <button
+                  <a
+                  tabindex="0"
                     class="btn btn-outline-primary learn-more"
-                    type="button"
+                    role="button"
                     data-toggle="popover"
+                    data-trigger="focus"
                     data-content="Health-in-a-box is an initiative of the Federal Ministry of
                     Health to provide a central information system for tertiary
                     healthcare institutions across the country. The primary goal is for the automation of hospitals, improved transparency, human capacity management, national disease reporting, revenue management, blocking of leakages and an overall improvement in the quality of services in Nigeria."
                   >
                     Learn More
-                  </button>
+                </a>
                 </p>
               </div>
             </div>
@@ -191,9 +193,11 @@
                   financial patterns/behaviour, etc within
                 </p>
                 <p>
-                  <button
+                  <a
+                  tabindex="0"
                     class="btn btn-outline-primary learn-more"
-                    type="button"
+                    role="button"
+                    data-trigger="focus"
                     data-toggle="popover"
                     data-content=" Seated at Federal Ministry of Health, the National Health
                     Informatics Dashboard provides real-time notifications on
@@ -202,7 +206,7 @@
                   The National Health Informatics dashboard also provides data-driven information for cross-cutting strategy, oversight, guidance and coordination of Federal Health institutions activities geared towards efficiency and innovative national health policies. "
                   >
                     Learn More
-                  </button>
+                </a>
                 </p>
               </div>
             </div>
@@ -229,9 +233,11 @@
                   quality of services at different levels
                 </p>
                 <p>
-                  <button
+                  <a
+                  tabindex="0"
                     class="btn btn-outline-primary learn-more"
-                    type="button"
+                    role="button"
+                    data-trigger="focus"
                     data-toggle="popover"
                     data-content=" The Hospital Management Information System (HMIS) provides
                     end-to-end information across the national health system
@@ -239,7 +245,7 @@
                     quality of services at different levels of healthcare delivery. This serves as a control framework for the Federal Ministry of Health to increase the timeliness and accuracy of patient care, administration information, reduce inventory levels, and improve the quality of patient care across the national health system. "
                   >
                     Learn More
-                  </button>
+                </a>
                 </p>
               </div>
             </div>
@@ -259,9 +265,11 @@
                   health system.
                 </p>
                 <p>
-                  <button
+                  <a
+                  tabindex="0"
                     class="btn btn-outline-primary learn-more"
-                    type="button"
+                    role="button"
+                    data-trigger="focus"
                     data-toggle="popover"
                     data-content=" Leveraging on this, remote telemedicine infrastructure is
                     being layered to provide a framework for veritable and
@@ -269,7 +277,7 @@
                     health system. Health-in-a-box has implemented the telemedicine services that allow all medical doctors in Federal tertiary health institutions to be accessible for remote telemedicine integration. Health-in-a-box is working with implementation partners to expand the telemedicine services across all Federal tertiary healthcare institutions."
                   >
                     Learn More
-                  </button>
+                </a>
                 </p>
               </div>
             </div>
@@ -693,7 +701,9 @@ $("#prevBtn").click(()=>{
   }
 
 })
-
+$('.popover-dismiss').popover({
+  trigger: 'focus'
+})
     </script>
     <!-- JS, Popper.js, and jQuery -->
     <script
