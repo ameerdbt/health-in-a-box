@@ -545,7 +545,7 @@ span.img-text:hover {
   }
   #logos {
     /* margin-top: -100px; */
-    margin-top: -143px;
+    margin-top: -434px;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -589,12 +589,15 @@ span.img-text:hover {
   margin-top: -23px;
 }
 .rb3{
-  margin-top: -1px;
+  margin-top: -10px;
 }
 .rb4{
   margin-top: -43px;
 }
-
+.carousel .img-box img {
+  margin-left: -361px;
+  margin-top: -102px;
+}
 
   #covid{
     margin-bottom: 100px;
