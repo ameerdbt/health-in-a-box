@@ -5,6 +5,8 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  /* border: 2px solid yellow; */
+  /* overflow-x: hidden; */
 }
 
 .navbar a img {
@@ -13,19 +15,21 @@
 
 .navbar ul li a {
   margin-right: 40px;
-  font-weight: 600;
+  font-weight: 800;
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-.navbar ul li a:hover {
+/* .navbar ul li a:hover {
   color: lightcoral;
-}
+} */
 
 .navbar ul li .btn {
-  background: #1a237e;
-  color: #fff;
-  width: 90px;
+  /* background: #1a237e; */
+  color: #1a237e;
+  width: 120px;
+  border: 1px solid #1a237e;
   box-shadow: none;
   outline: none;
+
 }
 .line{
   padding: 2px;
@@ -54,13 +58,22 @@
   top: 52%;
   left: 7%;
   line-height: 60px;
-  font-weight: 600;
+  font-weight: bolder;
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
+.btn-title{
+  width: 184px;
+  height: 61px;
+  background: #1a237e;
+  font-weight: bold;
+  margin-top: 25px;
+  text-align: center;
+  padding-top: 18px;
+}
 #logos img {
   width: 60px;
   margin: 30px;
+  margin-left: 103px;
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
@@ -90,12 +103,97 @@
   font-size: 27px;
   /* margin-top: 90px; */
 }
+
+.carousel-wrap {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+}
+.owl-carousel .owl-nav {
+  overflow: hidden;
+  height: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #2caae1;
+}
+
+.owl-carousel .item {
+  text-align: center;
+}
+.owl-carousel .nav-btn {
+  height: 47px;
+  position: absolute;
+  width: 26px;
+  cursor: pointer;
+  top: 100px !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.owl-carousel .prev-slide {
+  font-size: 120px;
+  margin-top: -134px;
+  left: -33px;
+}
+.owl-carousel .next-slide {
+  font-size: 120px;
+  right: -33px;
+  margin-top: -134px;
+
+}
+.owl-carousel .prev-slide:hover {
+  background-position: 0px -53px;
+}
+.owl-carousel .next-slide:hover {
+  background-position: -24px -53px;
+}
+
+span.img-text {
+  text-decoration: none;
+  outline: none;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  cursor: pointer;
+  width: 100%;
+  font-size: 23px;
+  display: block;
+  text-transform: capitalize;
+}
+span.img-text:hover {
+  color: #2caae1;
+}
+
 .logos {
   display: flex;
   flex-direction: row;
   margin-top: -30px;
   flex-wrap: wrap;
+  text-align: center;
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.img-fluid{
+
+}
+.owl-logo{
+  margin-top: 20px;
+}
+.carousel-text{
+  font-weight: 600;
+  color: #1a237e;
+  margin-top: 30px;
+}
+.logo-title{
+  font-size: 32px;
+  text-align: center;
+  color: #16208b;
 }
 .logos img {
   transition: all 0.5s;
@@ -109,17 +207,18 @@
   height: 35rem;
   padding: 30px;
 }
-.c:hover {
-  transform: translateY(-10px);
-}
+
 .c img {
   width: 80%;
   height: 59%;
+  object-fit: contain;
   margin-top: -159px;
   margin-left: 59px;
   z-index: 1;
 }
-
+.c-title{
+  color: #3943af;
+}
 .c .card-body {
   margin-top: 80px;
 }
@@ -130,20 +229,50 @@
 .card-left {
   margin-left: 50px;
 }
-.box {
-  padding: 20px;
-  height: 150px;
-  width: 277px;
+.learn-more{
+  border: 1px solid #1a237e;
+  color: #1a237e;
+  width: 150px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.right-box1 {
+  padding: 30px;
+  height: 101px;
+  width: 289px;
   background-color: #66ffa6;
   margin: 10px;
-  margin-top: 20px;
+  margin-top: 60px;
+  margin-left: 130px;
   position: absolute;
 }
 .right-box {
   padding: 30px;
   height: 101px;
   width: 289px;
-  background-color: #fbc02d;
+  background-color: #607d8b;
+  margin: 10px;
+  margin-top: 60px;
+  margin-left: 130px;
+  position: absolute;
+}
+.right-box2 {
+  padding: 30px;
+  height: 101px;
+  width: 289px;
+  background-color: #ffc046;
+  margin: 10px;
+  margin-top: 60px;
+  margin-left: 130px;
+  position: absolute;
+}
+.right-box3 {
+  padding: 30px;
+  height: 101px;
+  width: 289px;
+  background-color: #58a5ef;
   margin: 10px;
   margin-top: 60px;
   margin-left: 130px;
@@ -186,34 +315,47 @@
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 #impact {
-  margin-bottom: 250px;
+  margin-bottom: 100px;
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 .impact-title {
   font-size: 34px;
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   text-align: center;
+  color: #1a237e;
+
 }
 
 .impact-subtitle {
   text-align: center;
   margin-bottom: 60px;
+  color: #1a237e;
 }
 .impact-text {
   font-weight: 600;
   margin-bottom: 0;
 }
 .impact-body {
-  margin-bottom: 50px;
+  display: flex;
+ 
+  margin-bottom: 30px;
+}
+.imp-img{
+  margin-right: 30px;
+  width: 170px;
+}
+.imp-text{
+  align-self: center;
+  color: #1a237e;
+  font-weight: 600;
+}
+.imp-subtext{
+  color: #1a237e;
+  font-weight: 600;
+  margin-top: 17px;
+  margin-left: 95px;
 }
 
-.impact-box {
-  background-color: #00e676;
-  width: 100px;
-  margin-top: -233px;
-  padding: 144px;
-  margin-left: 55px;
-}
 .text-muted {
   font-size: 15px;
 }
@@ -223,6 +365,10 @@
   margin-left: 100px;
 }
 
+#stats{
+  background: #f6fff8;
+  margin-bottom: 100px;
+}
 .stats-title {
   font-size: 34px;
   color: #1a237e;
@@ -230,10 +376,7 @@
   margin-bottom: 40px;
 }
 
-#stats .col-md-8 img {
-  margin-left: 30px;
-}
-#stats .col-md-4 img {
+#stats .stat-infos img {
   transition: all 0.5s;
   -webkit-animation: beat 0.7s ease 0s infinite normal;
   -moz-animation: beat 0.7s ease 0s infinite normal;
@@ -393,7 +536,7 @@
 
   #logos {
     /* margin-top: -100px; */
-    margin-top: -333px;
+    margin-top: -143px;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -588,5 +731,15 @@
   .carousel .img-box img{
     width: 222%;
     margin-left: -643px;
+  }
+}
+@media  only screen and (max-width: 700px) {
+  .title{
+    margin-top: 146px;
+  }
+}
+@media  only screen and (max-width: 1200px){
+  .hp{
+    margin-top: 182px;
   }
 }

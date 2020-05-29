@@ -9,8 +9,16 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Health In A Box</title>
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+      });
+    </script>
   </head>
   <body>
     <section>
@@ -43,7 +51,7 @@
               </li>
 
               <li class="nav-item">
-                <a href="#login" class="nav-link btn btn-primary text-white"
+                <a href="#login" target="_blank" class="btn btn-outline-primary"
                   >Login</a
                 >
               </li>
@@ -56,30 +64,30 @@
     <section id="banner">
       <img src="./assets/Healthcare-Analytics-Market9.svg" class="" alt="" />
       <p class="title">
-        Accelerating Nigeria's digital <br />
-        transformation in healthcare <br />
-        services delivery
+        Enhancing Nigeria's healthcare <br />
+        transformation <br />
+        <a href="#" target="_blank" class="btn btn-primary btn-title">Sign up</a>
+        <!-- <button class="btn btn-primary btn-title">Sign up</button> -->
       </p>
     </section>
 
     <section id="logos">
       <div class="container">
+        <p class="logo-title">Federal Hospitals</p>
         <div class="row d-flex justify-content-center logos">
-          <img
-            src="./assets/WhatsApp Image 2020-04-14 at 23.33.16.svg"
-            alt=""
-          />
-          <img
-            src="./assets/WhatsApp Image 2020-04-14 at 20.16.52.svg"
-            alt=""
-          />
-          <img src="./assets/cropped-cropped-cropped-upth-logo2.svg" alt="" />
-          <img
-            src="./assets/Nnamdi-Azikiwe-University-Teaching-Hospital.svg"
-            alt=""
-          />
-          <img src="./assets/download (1).svg" alt="" />
-          <img src="./assets/abuth.svg" alt="" />
+          <div class="owl-carousel owl-theme owl-logo text-center">
+            <div class="item"><img src="./assets/new/jabi med.svg"  class="img-fluid" alt="" /> <p class="carousel-text">Federal Medical Centre Abuja</p></div>
+            <div class="item">  <img src="./assets/new/yola med.svg"  class="img-fluid"alt="" />  <p class="carousel-text">Federak Medical Centre Yola</p></div>
+            <div class="item">   <img src="./assets/new/ogun med centre.svg" style="margin-top: 42px;" class="img-fluid"alt="" />  <p class="carousel-text">Federal Medical Centre Abeokuta</p></div>
+            <div class="item" style="margin-top: -15px;">  <img src="./assets/abuth.svg"  class="img-fluid"alt="" /><p class="carousel-text">Ahmadu Bello University Teaching Hospital</p></div>
+            <div class="item"> <img src="./assets/cropped-cropped-cropped-upth-logo2.svg"  class="img-fluid"alt="" /><p class="carousel-text">University of Port Harcourt Teaching Hospital</p></div>
+            <div class="item"> <img src="./assets/download (1).svg"  class="img-fluid"alt="" /> <p class="carousel-text">Aminu Kano Teaching Hospital</p> </div>
+            <div class="item"> <img src="./assets/Nnamdi-Azikiwe-University-Teaching-Hospital.svg" class="img-fluid" alt="" /> <p class="carousel-text">Nnamdi Azikiwe University Teaching Hospital</p> </div>
+            <div class="item" style="margin-top: -21px;"> <img src="./assets/WhatsApp Image 2020-04-14 at 20.16.52.svg" class="img-fluid" alt="" /> <p class="carousel-text">University of Maiduguri Teaching Hospital</p></div>
+            <div class="item"><img src="./assets/WhatsApp Image 2020-04-14 at 23.33.16.svg" class="img-fluid" alt="" /> <p class="carousel-text">University of Abuja Teaching Hospital</p></div>
+            <div class="item"><img src="./assets/new/fed med katsina.svg" class="img-fluid" alt="" />  <p class="carousel-text">Federal Medical Centre Katsina</p></div>
+          
+        </div>
         </div>
       </div>
     </section>
@@ -95,34 +103,117 @@
       <div class="container">
         <div class="row d-flex">
           <div class="col-md-6 col-sm-12">
-            <div class="card shadow card-left c">
+            <div class="card shadow card-left c" style="width: 30rem;">
               <img src="./assets/12410.jpg" alt="" />
-              <div class="box"></div>
+              <div class="right-box1"></div>
               <div class="card-body">
-                <h5 class="card-title text-primary">About Us</h5>
+                <h5 class="card-title"><span class="c-title">About</span></h5>
                 <p class="text-muted">
                   Health-in-a-box is an initiative of the Federal Ministry of
                   Health to provide a central information system for tertiary
                   healthcare institutions across the country.
                 </p>
-                <p><small>Learn More</small></p>
+                <p>
+                  <button
+                    class="btn btn-outline-primary learn-more"
+                    type="button"
+                    data-toggle="popover"
+                    data-content="The primary goal is for the automation of hospitals, improved transparency, human capacity management, national disease reporting, revenue management, blocking of leakages and an overall improvement in the quality of services in Nigeria."
+                  >
+                    Learn More
+                  </button>
+                </p>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="card shadow card-right c" style="width: 30rem;">
-              <img src="./assets/hush-naidoo-pA0uoltkwao-unsplash.png" alt="" />
+              <img src="./assets/new/47081[1].png" alt="" />
               <div class="right-box"></div>
               <div class="card-body">
-                <h5 class="card-title text-primary">
-                  Connected Health Systems
+                <h5 class="card-title">
+                  <span class="c-title"
+                    >National Health Informatics center</span
+                  >
                 </h5>
                 <p class="text-muted">
-                  A change catalyst by providing analytics across all health
-                  institutions for efficiency and innovative national health
-                  policy
+                  Seated at Federal Ministry of Health, the National Health
+                  Informatics Dashboard provides real-time notifications on
+                  epidemics, disease patterns, prescription count hike, and
+                  financial patterns/behaviour, etc within
                 </p>
-                <p><small>Learn More</small></p>
+                <p>
+                  <button
+                    class="btn btn-outline-primary learn-more"
+                    type="button"
+                    data-toggle="popover"
+                    data-content=" the hospitals This enables the Federal Ministry of Health through its Department of Hospital Services to have a comprehensive overview and oversight over the hospitals. 
+                  The National Health Informatics dashboard also provides data-driven information for cross-cutting strategy, oversight, guidance and coordination of Federal Health institutions activities geared towards efficiency and innovative national health policies. "
+                  >
+                    Learn More
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-6 col-sm-12 hp">
+            <div class="card shadow card-left c" style="width: 30rem;">
+              <img
+                src="./assets/new/national-cancer-institute-w7Pby5bDKW4-unsplash.png"
+                alt=""
+              />
+              <div class="right-box2"></div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span class="c-title"
+                    >Hospital Management Information system</span
+                  >
+                </h5>
+                <p class="text-muted">
+                  The Hospital Management Information System (HMIS) provides
+                  end-to-end information across the national health system
+                  geared towards improving the efficiency, effectiveness, and
+                  quality of services at different levels
+                </p>
+                <p>
+                  <button
+                    class="btn btn-outline-primary learn-more"
+                    type="button"
+                    data-toggle="popover"
+                    data-content="of healthcare delivery. This serves as a control framework for the Federal Ministry of Health to increase the timeliness and accuracy of patient care, administration information, reduce inventory levels, and improve the quality of patient care across the national health system. "
+                  >
+                    Learn More
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="card shadow card-right c" style="width: 30rem;">
+              <img src="./assets/new/OCIFP90[1].png" alt="" />
+              <div class="right-box3"></div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span class="c-title">National Telemedecine Framework</span>
+                </h5>
+                <p class="text-muted">
+                  Leveraging on this, remote telemedicine infrastructure is
+                  being layered to provide a framework for veritable and
+                  controlled implementation of telemedicine across the national
+                  health system.
+                </p>
+                <p>
+                  <button
+                    class="btn btn-outline-primary learn-more"
+                    type="button"
+                    data-toggle="popover"
+                    data-content="Health-in-a-box has implemented the telemedicine services that allow all medical doctors in Federal tertiary health institutions to be accessible for remote telemedicine integration. Health-in-a-box is working with implementation partners to expand the telemedicine services across all Federal tertiary healthcare institutions."
+                  >
+                    Learn More
+                  </button>
+                </p>
               </div>
             </div>
           </div>
@@ -145,35 +236,46 @@
         </p>
         <div class="row details">
           <div class="col-md-6">
-            <img src="./assets/increase.svg" alt="" />
+            <img src="./assets/new/Group 59.svg" alt="" />
             <p class="">
-              Revenue collection harmonization across all Federal Health
-              Institutions (FHI)
+              End to end automation across all federal healthcare institutions
             </p>
           </div>
           <div class="col-md-6">
-            <img src="./assets/Group 58.svg" alt="" />
-            <p>Payment Monitoring and Aggregation</p>
+            <img src="./assets/new/Icon feather-bar-chart-2.svg" alt="" />
+            <p>
+              Centralized Data aggregation for Epidemiological, Financial and
+              Inventory Data
+            </p>
+          </div>
+        </div>
+        <div class="row details">
+          <div class="col-md-6">
+            <img src="./assets/new/analytics.svg" alt="" />
+            <p>
+              Dashboard for analytics and data mining (Disease Prevalence, Drug
+              Usage per Diagnosis, etc)
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="./assets/new/Group 64.svg" alt="" />
+            <p>
+              Flexible control over authorization (centralized vendor
+              registration and blacklisting, Inventory flow management, etc)
+            </p>
           </div>
         </div>
         <div class="row details">
           <div class="col-md-6">
             <img src="./assets/transparency.svg" alt="" />
             <p>
-              Elimination of leakages on collections and increased transparency
+              Transparency and accountability through EMRs
             </p>
           </div>
           <div class="col-md-6">
-            <img src="./assets/laptop (1).svg" alt="" />
-            <p>Accountability through Electronic Medical Records (EMRs)</p>
-          </div>
-        </div>
-        <div class="row details">
-          <div class="col-md-6">
-            <img src="./assets//Icon feather-lock.svg" alt="" />
+            <img src="./assets/new/Icon feather-refresh-cw.svg" alt="" />
             <p>
-              Secure channel for aggregation of all payments at FHI into the TSA
-              of the Federal Government
+              Standardization of HMIS processes
             </p>
           </div>
         </div>
@@ -182,7 +284,7 @@
 
     <p class="covid-title text-center">COVID-19 response initiative</p>
     <section id="covid">
-      <div class="row">
+      <div class="row" style="width: 100%;">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="item carousel-item active">
@@ -241,31 +343,68 @@
         <p class="impact-title">Impact and Success</p>
         <p class="impact-subtitle">
           Health-in-a-box unifies data across all connected hospitals to drive
-          data-driven decisions and a future built on innovation
+          data-driven decisions and a future built on innovation.
         </p>
         <div class="row">
           <div class="col-md-6">
             <img
-              src="./assets/christian-bowen-I0ItPtIsVEE-unsplash.jpg"
+              src="./assets/new/national-cancer-institute-w7Pby5bDKW4-unsplash.png"
               class="impact-img"
               alt=""
             />
-            <div class="impact-box"></div>
+            <p class="imp-subtext">
+              Significant improvement in health infrastructures in over 15
+              tertiary health institutions
+            </p>
           </div>
           <div class="col-md-6">
-            <div class="impact-body">
-              <p class="impact-text">Over 100% Increase</p>
-              <p class="text-muted">
-                in bottom-line and significant improvement in health outcomes
-              </p>
+            <div>
+              <div class="impact-body">
+                <img
+                  src="./assets/new/person-getting-his-blood-check-1350560.png"
+                  class="imp-img"
+                  alt=""
+                />
+                <p class="imp-text">
+                  Reduced patient wait time
+                </p>
+              </div>
+              <hr />
+            </div>
+            <div>
+              <div class="impact-body">
+                <img
+                  src="./assets/new/crop-doctor-with-stethoscope-preparing-for-surgery-in-3825586.png"
+                  class="imp-img"
+                  alt=""
+                />
+                <p class="imp-text">
+                  Improved operational efficiency
+                </p>
+              </div>
+              <hr />
+            </div>
+            <div>
+              <div class="impact-body">
+                <img
+                  src="./assets/new/adeolu-eletu-unRkg2jH1j0-unsplash.png"
+                  class="imp-img"
+                  alt=""
+                />
+                <p class="imp-text">
+                  Online real-time data collection from all health institution
+                </p>
+              </div>
+              <hr />
             </div>
             <div class="impact-body">
-              <p class="impact-text">Trusted by 10</p>
-              <p class="text-muted">government tertiary health institutions</p>
-            </div>
-            <div class="impact-body">
-              <p class="impact-text">
-                Unified Data and Analytics for Nigeira's Healthcare.
+              <img
+                src="./assets/new/luke-chesser-JKUTrJ4vK00-unsplash.png"
+                class="imp-img"
+                alt=""
+              />
+              <p class="imp-text">
+                Unified data and analytics across the national health system
               </p>
             </div>
           </div>
@@ -274,22 +413,39 @@
     </section>
 
     <section id="stats">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,288L1440,0L1440,0L0,0Z"
+        ></path>
+      </svg>
       <div class="container text-center">
         <p class="stats-title text-center">
           Digital health transformation across <br />
           institutions in Nigeria
         </p>
         <div class="row">
-          <div class="col-md-8">
-            <img src="./assets/Group 55.svg" width="100%" alt="" />
+          <div>
+            <img src="./assets/new/Group 71.png" width="70%" alt="" />
           </div>
-          <div class="col-md-4">
-            <img src="./assets/info g 1.svg" width="50%" alt="" />
-            <img src="./assets/info g 2.svg" width="50%" alt="" />
-            <img src="./assets/info g 3.svg" width="50%" alt="" />
+        </div>
+        <div class="row">
+          <div class="stat-infos">
+            <img src="./assets/new/info g 3.png" width="20%" alt="" />
+            <img src="./assets/new/info g 2.png" width="20%" alt="" />
+            <img src="./assets/new/info g 1.png" width="20%" alt="" />
+            <img src="./assets/new/info g 4.png" width="20%" alt="" />
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,288L1440,0L1440,320L0,320Z"
+        ></path>
+      </svg>
     </section>
 
     <section id="stories">
@@ -428,6 +584,28 @@
         </p>
       </div>
     </section>
+
+    <script src="./OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" type="text/javascript"></script>
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText:["<div class='nav-btn prev-slide'>‹</div>","<div class='nav-btn next-slide'>›</div>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+    </script>
     <!-- JS, Popper.js, and jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
