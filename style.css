@@ -143,7 +143,7 @@
 }
 .owl-carousel .next-slide {
   font-size: 120px;
-  right: -33px;
+  right: 0px;
   margin-top: -134px;
 
 }
@@ -360,7 +360,7 @@ span.img-text:hover {
   color: #1a237e;
   font-weight: 600;
   margin-top: 17px;
-  margin-left: 95px;
+  margin-left: 33px;
 }
 
 .text-muted {
@@ -369,7 +369,7 @@ span.img-text:hover {
 
 .impact-img {
   width: 80%;
-  margin-left: 100px;
+  margin-left: 32px;
 }
 
 #stats{
@@ -540,7 +540,9 @@ span.img-text:hover {
 }
 
 @media  only screen and (max-width: 1024px) {
-
+  .navbar-brand{
+    margin-right: -5rem;
+  }
   #logos {
     /* margin-top: -100px; */
     margin-top: -143px;
@@ -551,7 +553,7 @@ span.img-text:hover {
     flex-wrap: wrap;
   }
   #logos img{
-    margin-left: 206px;
+    margin-left: 164px;
   }
   .box{
     height: 120px;
@@ -592,6 +594,7 @@ span.img-text:hover {
 .rb4{
   margin-top: -43px;
 }
+
 
   #covid{
     margin-bottom: 100px;
@@ -636,8 +639,9 @@ span.img-text:hover {
       -o-transform: skew(0deg); */
   }
   #stories .card{
-    width: 467px;
+    width: 364px;
     margin: 27px;
+    padding: 45px;
   }
   #stories .img{
     width: 124%;
@@ -646,7 +650,7 @@ span.img-text:hover {
 }
 
 .laptop{
-  margin-top: 269px;
+  margin-top: 302px;
 }
 
 #impact{
