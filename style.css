@@ -41,11 +41,11 @@
 }
 #banner {
   /* margin-top: 5px; */
-  margin-bottom: 752px;
+  margin-bottom: 891px;
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 #banner img {
-  width: 80%;
+  width: 93%;
   float: right;
   height: 30%;
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
