@@ -545,7 +545,7 @@ span.img-text:hover {
   }
   #logos {
     /* margin-top: -100px; */
-    margin-top: -434px;
+    margin-top: -105px;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -782,7 +782,10 @@ span.img-text:hover {
   .title{
     margin-top: 219px;
   }
+  #logos{
+    margin-top: -456px;
 
+  }
  
 }
 @media  only screen and (max-width: 1200px){
