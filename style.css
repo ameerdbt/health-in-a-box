@@ -652,8 +652,10 @@ span.img-text:hover {
     margin-bottom: 31px;
 }
 
-.laptop{
+
+.sm-lap{
   margin-top: 302px;
+  width: 88%;
 }
 
 #impact{
@@ -786,6 +788,9 @@ span.img-text:hover {
     margin-top: -456px;
 
   }
+  .laptop {
+    width: 98%;
+}
  
 }
 @media  only screen and (max-width: 1200px){
