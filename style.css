@@ -642,7 +642,7 @@ span.img-text:hover {
       -o-transform: skew(0deg); */
   }
   #stories .card{
-    width: 364px;
+    width: 686px;
     margin: 27px;
     padding: 45px;
   }
@@ -667,7 +667,9 @@ span.img-text:hover {
 } 
 
 .details{
-  margin-bottom: -65px
+  margin-bottom: -65px;
+  
+  margin-left: -104px;
 }
 #services {
   margin-bottom: 160px;
@@ -802,7 +804,9 @@ span.img-text:hover {
   .nav-img{
     width: 50%;
   }
-
+  #stories .card{
+    width: 322px;
+  }
 }
 
 .lap-text{
