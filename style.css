@@ -329,7 +329,7 @@ span.img-text:hover {
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 #impact {
-  /* margin-bottom: 100px; */
+  margin-bottom: -48px;
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 .impact-title {
@@ -380,7 +380,7 @@ span.img-text:hover {
 
 #stats {
   background: #f6fff8;
-  margin-bottom: 100px;
+  margin-bottom: -48px;
 }
 .stats-title {
   font-size: 34px;
@@ -503,7 +503,7 @@ span.img-text:hover {
   width: 674px;
   height: 100%;
   top: 0;
-  left: 120px;
+  left: 65px;
   z-index: -1;
   background: #00acc1;
   -ms-transform: skew(30deg);
