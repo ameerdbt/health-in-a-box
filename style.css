@@ -695,7 +695,7 @@ span.img-text:hover {
   margin-top: -161px;
   margin-left: 193px;
   background-color: #00acc1;
-  margin-bottom: 400px;
+  margin-bottom: 200px;
 }
 
 .img {
@@ -747,7 +747,7 @@ span.img-text:hover {
 }
 .laptop {
   width: 65%;
-  margin-bottom: -247px;
+  margin-bottom: -394px;
 }
 
 @media (min-width: 768px) {
